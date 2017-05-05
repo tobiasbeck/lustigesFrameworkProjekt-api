@@ -1,0 +1,30 @@
+{
+  "name": "grill",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lat": {
+      "type": "number",
+      "required": true
+    },
+    "long": {
+      "type": "number",
+      "required": true
+    },
+    "diameter": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
